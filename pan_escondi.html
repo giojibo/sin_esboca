@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El pan que escondi</title>
+    <link rel="stylesheet" type="text/css" href="css/pan.css">
+    <script type="text/javascript" src="js/sinescoba.js"></script>
+</head>
+<body>
+    <nav>
+        <ol>
+            <a href="sinescoba.html">Barriendo sin escoba</a>
+        </ol>
+        <ol>
+            <a href="pan_escondi.html">Se comieron el pan que escondi</a>
+        </ol>
+    </nav>
+    <div class="container">
+        <h1 align="center">Se comieron el pan que escondi</h1>
+        <form >
+            <div class="cabeza"> 
+                <h4 align="center">¿Que se comieron? </h4>
+                <hr>
+            </div>
+            <div class="respuestas" align="left">
+                <label>
+                    <input type="radio" name="comida" value="torta"> Mi torta
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="comida" value="pan"> Mi pan sum sum sum
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="comida" value="elpan" onclick="mostrarReproductor()"> El pan que escondi
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="comida" value="elpan" onclick="mostrarVideo()"> El pan que escondi real no fake
+                </label>
+            </div>
+            <hr>
+        </form>
+        <div id="reproductor" align="left">
+            <audio controls>
+                <source src="pan_que_escondi.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <div id="video" align="center">
+            
+            <video controls>
+                <source src="pan_que_escondi.mp4" type="video/mp4">
+            </video>
+            
+        </div>
+	</div>
+</body>
+</html>

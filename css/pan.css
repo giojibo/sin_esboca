@@ -1,0 +1,106 @@
+.container
+{
+	width: auto;
+	height: auto;
+	margin: 10px;
+	padding-top: 10px;
+}
+.container h4
+{
+	margin: 20px;
+	color: darkblue;
+	font-family: sans-serif;
+}
+.container label 
+{
+	font-family: sans-serif;
+}
+form
+{
+	width: auto;
+	height: auto;
+	background: linear-gradient(to top, white, skyblue);
+	border-radius: 10px 10px 10px 10px;
+	margin: 10px;
+}
+.respuestas, label, input
+{
+	color: black;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+input
+{
+	border: none;
+	font-size: 15px;
+	color: darkblue;
+	
+}
+.container #reproductor 
+{
+	display: none;
+	width: auto;
+}
+.container #reproductor audio{
+	width: 1480px;
+	margin-left: 10px;
+	
+}
+
+
+body{
+	width: auto;
+	height: auto;
+	background: linear-gradient(to right, skyblue,white, white, skyblue);
+	
+ }
+ .respuestas{
+	 margin: 5px;
+	 padding: 5px;
+ }
+ .cabeza{
+	 height: 50px;
+	background: linear-gradient(to top, skyblue, white);
+	margin: auto;
+	padding-top: 5px;
+	border-radius: 10px 10px 0 0 ;
+ }
+ .container #video
+ {
+	 display: none;
+	
+ }
+ .container #video video
+ {
+	width: 100px;
+	width: 250px;
+ }
+
+nav{
+	/*margin: 10px 10px 10px 10px ;*/
+	padding-top: 40px;
+	background: linear-gradient(to bottom, black, darkblue);
+	height: 60px;
+}
+
+nav ol{
+	width: auto;
+	height: auto;
+	margin-top: 20px;
+	display: inline;
+}
+
+nav ol a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	width: auto;
+	padding: 10px;
+	height: 15px;
+
+ }
+ nav ol a:hover{
+	
+	background-color: white;
+	color: darkblue;
+ }
